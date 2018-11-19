@@ -3,22 +3,37 @@ using System.Text;
 
 namespace Epam.Task00.Sequence
 {
-    class Program
+    public class Program
     {
-        static string Sequence(int n)
+        static void Sequence(int num)
         {
-            StringBuilder str = new StringBuilder("1");
-            for (int i = 2; i <= n; i++)
+            Console.WriteLine("Here is your sequence:");
+            for (int i = 1; i <= num; i++)
             {
-                str.Append(", ");
-                str.Append(i);
+                if (i != num)
+                {
+                    Console.Write(i + ", ");
+                }
+                else
+                {
+                    Console.WriteLine(i);
+                }
             }
-            return str.ToString();
-
         }
         static void Main()
         {
-            Console.WriteLine(Sequence(7));
+            int num = 0;
+            do
+            {
+                Console.WriteLine("Please, enter a positive integer: ");
+
+                num = int.TryParse(Console.ReadLine(), out num)
+                    ? num
+                    : 0;
+            }
+            while (num < 1);
+
+            Sequence(num);
         }
     }
 }

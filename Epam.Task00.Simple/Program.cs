@@ -4,24 +4,40 @@ namespace Epam.Task00.Simple
 {
     class Program
     {
-        static bool IsSimple(int n)
+        static bool IsSimple(int num)
         {
-            if (n < 1) return false;
-            if (n < 3) return true;
-            if (n % 2 == 0) return false;
-
-            for (int i = 3; i < n; i+=2)
+            if (num == 1)
             {
-                if (n % i == 0) return false;
+                return false;
+            }
+
+            for (int i = 2; i <= Math.Sqrt(num); i++)
+            {
+                if (num % i == 0) return false;
             }
             return true;
         }
         static void Main()
         {
-            Console.WriteLine(IsSimple(13));
-            Console.WriteLine(IsSimple(15));
-            Console.WriteLine(IsSimple(128));
-            Console.WriteLine(IsSimple(997));
+            int num = 0;
+            do
+            {
+                Console.WriteLine("Please, enter a positive integer:");
+
+                num = int.TryParse(Console.ReadLine(), out num)
+                    ? num
+                    : 0;
+            }
+            while (num < 1);
+
+            if (IsSimple(num))
+            {
+                Console.WriteLine("Number is prime.");
+            }
+            else
+            {
+                Console.WriteLine("Number is not prime.");
+            }
         }
     }
 }

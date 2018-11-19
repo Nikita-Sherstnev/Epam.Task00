@@ -4,21 +4,40 @@ namespace Epam.Task00.Square
 {
     class Program
     {
-        static void Square(int n)
+        static void Square(int num)
         {
-            for (int i = 0; i < n; i++)
+            Console.WriteLine("Here is your square:");
+            for (int i = 0; i < num; i++)
             {
-                for (int j = 0; j < n; j++)
+                for (int j = 0; j < num; j++)
                 {
-                    if (i == n / 2 && j == n / 2) Console.Write(" ");
-                    else Console.Write("*");
+                    if (i == num / 2 && j == num / 2)
+                    {
+                        Console.Write(" ");
+                    }
+                    else
+                    {
+                        Console.Write("*");
+                    }
                 }
+
                 Console.WriteLine();
             }
         }
         static void Main()
         {
-            Square(7);
+            int num = 0;
+            do
+            {
+                Console.WriteLine("Please, enter a positive odd integer: ");
+
+                num = int.TryParse(Console.ReadLine(), out num)
+                    ? num
+                    : 0;
+            }
+            while (num < 1 || num % 2 != 1);
+
+            Square(num);
         }
     }
 }
