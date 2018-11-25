@@ -4,18 +4,15 @@ namespace Epam.Task01.AverageStringLength
 {
     class Program
     {
-        static void Main()
+        static double AverageStringLength(string str)
         {
-            Console.WriteLine("Please, enter a string:");
-            string str = Console.ReadLine();
-
-            int end = 0;
+            int endOfString = 0;
 
             for (int i = str.Length - 1; i > 0; i--)
             {
                 if (char.IsLetter(str[i]))
                 {
-                    end = i;
+                    endOfString = i;
                     break;
                 }
             }
@@ -23,7 +20,7 @@ namespace Epam.Task01.AverageStringLength
             int countLetters = 0;
             int countWords = 0;
 
-            for (int i = 0; i <= end; i++)
+            for (int i = 0; i <= endOfString; i++)
             {
                 if (char.IsLetter(str[i]))
                 {
@@ -32,9 +29,9 @@ namespace Epam.Task01.AverageStringLength
                 else
                 {
                     countWords++;
-                    while (!char.IsLetter(str[i]))
+                    while (!char.IsLetter(str[i+1]))
                     {
-                        if (i < end - 1)
+                        if (i < endOfString - 1)
                         {
                             i++;
                         }
@@ -43,13 +40,19 @@ namespace Epam.Task01.AverageStringLength
                             break;
                         }
                     }
-                    countLetters++;
                 }
             }
             countWords++;
 
-            double average = (double)countLetters / countWords;
-            Console.WriteLine($"Average word length: {average}");
+            return (double)countLetters / countWords;
+        }
+
+        static void Main()
+        {
+            Console.WriteLine("Please, enter a string:");
+            string str = Console.ReadLine();
+
+            Console.WriteLine($"Average string length: {AverageStringLength(str)}");
         }
     }
 }

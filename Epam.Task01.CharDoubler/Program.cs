@@ -5,16 +5,10 @@ namespace Epam.Task01.CharDoubler
 {
     class Program
     {
-        static void Main()
+        static string CharDoubler(string str1, string str2)
         {
-            Console.Write("Please, enter a first string: ");
-            string str1 = Console.ReadLine();
-
-            Console.Write("Please, enter a second string: ");
-            string str2 = Console.ReadLine();
-
             var str = new StringBuilder();
-            
+
             for (int i = 0; i < str1.Length; i++)
             {
                 bool check = true;
@@ -31,8 +25,18 @@ namespace Epam.Task01.CharDoubler
                     str.Append(str1[i]);
                 }
             }
+            return str.ToString();
+        }
 
-            Console.WriteLine($"Result string: {str}");
+        static void Main()
+        {
+            Console.Write("Please, enter a first string: ");
+            string str1 = Console.ReadLine();
+
+            Console.Write("Please, enter a second string: ");
+            string str2 = Console.ReadLine();
+
+            Console.WriteLine($"Result string: {CharDoubler(str1, str2)}");
         }
     }
 }
