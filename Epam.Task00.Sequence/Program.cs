@@ -5,7 +5,7 @@ namespace Epam.Task00.Sequence
 {
     public class Program
     {
-        static void Sequence(int num)
+        public static void Sequence(int num)
         {
             Console.WriteLine("Here is your sequence:");
             for (int i = 1; i <= num; i++)
@@ -20,7 +20,8 @@ namespace Epam.Task00.Sequence
                 }
             }
         }
-        static void Main()
+
+        public static void Main()
         {
             int num = 0;
             do

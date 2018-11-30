@@ -2,9 +2,9 @@
 
 namespace Epam.Task01.SumOfNumbers
 {
-    class Program
+    public class Program
     {
-        static void Main()
+        public static void Main()
         {
             int sum = 0;
             for (int i = 1; i < 1000; i++)
@@ -15,6 +15,7 @@ namespace Epam.Task01.SumOfNumbers
                     Console.WriteLine(i);
                 }
             }
+
             Console.WriteLine($"Sum of numbers: {sum}");
         }
     }

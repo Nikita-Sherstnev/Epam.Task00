@@ -2,9 +2,9 @@
 
 namespace Epam.Task01.X_masTree
 {
-    class Program
+    public class Program
     {
-        static void Tree(int amountOfTriangles)
+        public static void Tree(int amountOfTriangles)
         {
             Console.WriteLine("Here's your picture, enjoy!");
 
@@ -18,6 +18,7 @@ namespace Epam.Task01.X_masTree
                         {
                             Console.Write(" ");
                         }
+
                         if (k > amountOfTriangles - row - 1 && k < amountOfTriangles + row + 1)
                         {
                             Console.Write("*");
@@ -28,7 +29,8 @@ namespace Epam.Task01.X_masTree
                 }
             }
         }
-        static void Main()
+
+        public static void Main()
         {
             int num;
             do

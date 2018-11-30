@@ -2,9 +2,9 @@
 
 namespace Epam.Task01.AnotherTriangle
 {
-    class Program
+    public class Program
     {
-        static void AnotherTriangle(int row)
+        public static void AnotherTriangle(int row)
         {
             Console.WriteLine("Here's your picture, enjoy!");
 
@@ -12,11 +12,12 @@ namespace Epam.Task01.AnotherTriangle
             {
                 for (int j = 0; j <= row * 2; j++)
                 {
-                    if(j < row - i - 1)
+                    if (j < row - i - 1)
                     {
                         Console.Write(" ");
                     }
-                    if(j > row - i - 1 && j < row + i + 1)
+
+                    if (j > row - i - 1 && j < row + i + 1)
                     {
                         Console.Write("*");
                     }
@@ -25,7 +26,8 @@ namespace Epam.Task01.AnotherTriangle
                 Console.WriteLine();
             }
         }
-        static void Main()
+
+        public static void Main()
         {
             int num;
             do

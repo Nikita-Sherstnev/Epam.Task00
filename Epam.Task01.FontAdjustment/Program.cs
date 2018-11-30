@@ -2,17 +2,18 @@
 
 namespace Epam.Task01.FontAdjustment
 {
-    class Program
+    public class Program
     {
         [Flags]
-        enum Fonts
+        public enum Fonts
         {
             None,
             Bold,
             Italic,
             Underline = 4,
         }
-        static void Main()
+
+        public static void Main()
         {
             int param = 0;
             while (true)
@@ -32,7 +33,11 @@ namespace Epam.Task01.FontAdjustment
                 }
                 else
                 {
-                    if (check == 3) check++;
+                    if (check == 3)
+                    {
+                        check++;
+                    }
+
                     param ^= check;
                 }
             }

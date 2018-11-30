@@ -2,9 +2,9 @@
 
 namespace Epam.Task01.AverageStringLength
 {
-    class Program
+    public class Program
     {
-        static double AverageStringLength(string str)
+        public static double AverageStringLength(string str)
         {
             int endOfString = 0;
 
@@ -29,7 +29,7 @@ namespace Epam.Task01.AverageStringLength
                 else
                 {
                     countWords++;
-                    while (!char.IsLetter(str[i+1]))
+                    while (!char.IsLetter(str[i + 1]))
                     {
                         if (i < endOfString - 1)
                         {
@@ -42,12 +42,13 @@ namespace Epam.Task01.AverageStringLength
                     }
                 }
             }
+
             countWords++;
 
             return (double)countLetters / countWords;
         }
 
-        static void Main()
+        public static void Main()
         {
             Console.WriteLine("Please, enter a string:");
             string str = Console.ReadLine();

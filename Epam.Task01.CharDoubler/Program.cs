@@ -3,9 +3,9 @@ using System.Text;
 
 namespace Epam.Task01.CharDoubler
 {
-    class Program
+    public class Program
     {
-        static string CharDoubler(string str1, string str2)
+        public static string CharDoubler(string str1, string str2)
         {
             var str = new StringBuilder();
 
@@ -20,15 +20,17 @@ namespace Epam.Task01.CharDoubler
                         check = false;
                     }
                 }
+
                 if (check)
                 {
                     str.Append(str1[i]);
                 }
             }
+
             return str.ToString();
         }
 
-        static void Main()
+        public static void Main()
         {
             Console.Write("Please, enter a first string: ");
             string str1 = Console.ReadLine();

@@ -2,9 +2,9 @@
 
 namespace Epam.Task01.Non_negativeSum
 {
-    class Program
+    public class Program
     {
-        static void Main()
+        public static void Main()
         {
             int sum = 0;
             int[] arr = new int[10];
@@ -24,7 +24,10 @@ namespace Epam.Task01.Non_negativeSum
 
             for (int i = 0; i < arr.Length; i++)
             {
-                if (arr[i] > 0) sum += arr[i];
+                if (arr[i] > 0)
+                {
+                    sum += arr[i];
+                }
             }
 
             Console.WriteLine($"Sum of non-negative elements: {sum}");

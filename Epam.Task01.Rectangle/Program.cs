@@ -2,19 +2,24 @@
 
 namespace Epam.Task01.Rectangle
 {
-    class Program
+    public class Program
     {
-        static int Enter(out int num)
+        public static int Enter(out int num)
         {
             int check = int.TryParse(Console.ReadLine(), out num)
                       ? num
                       : 1;
-            if (check < 1) Console.WriteLine("Entered incorrect number!");
+            if (check < 1)
+            {
+                Console.WriteLine("Entered incorrect number!");
+            }
+
             return num;
         }
-        static int RectangleArea(int a, int b) => a * b;
 
-        static void Main()
+        public static int RectangleArea(int a, int b) => a * b;
+
+        public static void Main()
         {
             Console.WriteLine("Please, enter sides of rectangle");
             int a;

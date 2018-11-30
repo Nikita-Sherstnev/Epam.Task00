@@ -2,9 +2,9 @@
 
 namespace Epam.Task00.Simple
 {
-    class Program
+    public class Program
     {
-        static bool IsSimple(int num)
+        public static bool IsSimple(int num)
         {
             if (num == 1)
             {
@@ -13,11 +13,16 @@ namespace Epam.Task00.Simple
 
             for (int i = 2; i <= Math.Sqrt(num); i++)
             {
-                if (num % i == 0) return false;
+                if (num % i == 0)
+                {
+                    return false;
+                } 
             }
+
             return true;
         }
-        static void Main()
+
+        public static void Main()
         {
             int num = 0;
             do

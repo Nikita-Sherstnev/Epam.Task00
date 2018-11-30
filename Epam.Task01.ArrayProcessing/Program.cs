@@ -2,31 +2,42 @@
 
 namespace Epam.Task01.ArrayProcessing
 {
-    class Program
+    public class Program
     {
-        static int Max(int[] arr)
+        public static int Max(int[] arr)
         {
             int max = 0;
             for (int i = 0; i < arr.Length; i++)
             {
-                if (arr[i] > max) max = arr[i];
+                if (arr[i] > max)
+                {
+                    max = arr[i];
+                }
             }
+
             return max;
         }
 
-        static int Min(int[] arr)
+        public static int Min(int[] arr)
         {
             int min = 0;
             for (int i = 0; i < arr.Length; i++)
             {
-                if (arr[i] < min) min = arr[i];
+                if (arr[i] < min)
+                {
+                    min = arr[i];
+                }
             }
+
             return min;
         }
 
-        static void QuickSort(int[] arr, int left, int right)
+        public static void QuickSort(int[] arr, int left, int right)
         {
-            if (left > right || left < 0 || right < 0) return;
+            if (left > right || left < 0 || right < 0)
+            {
+                return;
+            }
 
             int index = Partition(arr, left, right);
 
@@ -37,9 +48,12 @@ namespace Epam.Task01.ArrayProcessing
             }
         }
 
-        static int Partition(int[] arr, int left, int right)
+        public static int Partition(int[] arr, int left, int right)
         {
-            if (left > right) return -1;
+            if (left > right)
+            {
+                return -1;
+            }
 
             int end = left;
 
@@ -58,14 +72,14 @@ namespace Epam.Task01.ArrayProcessing
             return end;
         }
 
-        static void Swap(int[] arr, int left, int right)
+        public static void Swap(int[] arr, int left, int right)
         {
             int tmp = arr[left];
             arr[left] = arr[right];
             arr[right] = tmp;
         }
-        
-        static void ShowArray(int[] arr)
+
+        public static void ShowArray(int[] arr)
         {
             foreach (int item in arr)
             {
@@ -73,7 +87,7 @@ namespace Epam.Task01.ArrayProcessing
             }
         }
 
-        static void Main()
+        public static void Main()
         {
             int[] arr = new int[10];
             Random r = new Random();

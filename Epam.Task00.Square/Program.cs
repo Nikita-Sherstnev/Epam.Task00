@@ -2,9 +2,9 @@
 
 namespace Epam.Task00.Square
 {
-    class Program
+    public class Program
     {
-        static void Square(int num)
+        public static void Square(int num)
         {
             Console.WriteLine("Here is your square:");
             for (int i = 0; i < num; i++)
@@ -24,7 +24,8 @@ namespace Epam.Task00.Square
                 Console.WriteLine();
             }
         }
-        static void Main()
+
+        public static void Main()
         {
             int num = 0;
             do

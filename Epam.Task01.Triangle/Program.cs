@@ -2,9 +2,9 @@
 
 namespace Epam.Task01.Triangle
 {
-    class Program
+    public class Program
     {
-        static void Triangle(int rows)
+        public static void Triangle(int rows)
         {
             Console.WriteLine("Here's your picture, enjoy!");
 
@@ -18,7 +18,8 @@ namespace Epam.Task01.Triangle
                 Console.WriteLine();
             }
         }
-        static void Main()
+
+        public static void Main()
         {
             int n;
             do
