@@ -1,0 +1,6 @@
+C:\Users\Продажный\source\repos\Epam.Task02\Epam.Task02.8.Game\bin\Debug\Epam.Task02.8.Game.exe.config
+C:\Users\Продажный\source\repos\Epam.Task02\Epam.Task02.8.Game\bin\Debug\Epam.Task02.8.Game.exe
+C:\Users\Продажный\source\repos\Epam.Task02\Epam.Task02.8.Game\bin\Debug\Epam.Task02.8.Game.pdb
+C:\Users\Продажный\source\repos\Epam.Task02\Epam.Task02.8.Game\obj\Debug\Epam.Task02.8.Game.csproj.CoreCompileInputs.cache
+C:\Users\Продажный\source\repos\Epam.Task02\Epam.Task02.8.Game\obj\Debug\Epam.Task02.8.Game.exe
+C:\Users\Продажный\source\repos\Epam.Task02\Epam.Task02.8.Game\obj\Debug\Epam.Task02.8.Game.pdb

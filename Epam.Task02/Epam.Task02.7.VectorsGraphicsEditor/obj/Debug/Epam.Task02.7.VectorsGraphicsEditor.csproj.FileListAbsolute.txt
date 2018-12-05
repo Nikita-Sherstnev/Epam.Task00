@@ -1,0 +1,7 @@
+C:\Users\Продажный\source\repos\Epam.Task02\Epam.Task02.7.VectorsGraphicsEditor\bin\Debug\Epam.Task02.7.VectorsGraphicsEditor.exe.config
+C:\Users\Продажный\source\repos\Epam.Task02\Epam.Task02.7.VectorsGraphicsEditor\bin\Debug\Epam.Task02.7.VectorsGraphicsEditor.exe
+C:\Users\Продажный\source\repos\Epam.Task02\Epam.Task02.7.VectorsGraphicsEditor\bin\Debug\Epam.Task02.7.VectorsGraphicsEditor.pdb
+C:\Users\Продажный\source\repos\Epam.Task02\Epam.Task02.7.VectorsGraphicsEditor\obj\Debug\Epam.Task02.7.VectorsGraphicsEditor.csprojAssemblyReference.cache
+C:\Users\Продажный\source\repos\Epam.Task02\Epam.Task02.7.VectorsGraphicsEditor\obj\Debug\Epam.Task02.7.VectorsGraphicsEditor.csproj.CoreCompileInputs.cache
+C:\Users\Продажный\source\repos\Epam.Task02\Epam.Task02.7.VectorsGraphicsEditor\obj\Debug\Epam.Task02.7.VectorsGraphicsEditor.exe
+C:\Users\Продажный\source\repos\Epam.Task02\Epam.Task02.7.VectorsGraphicsEditor\obj\Debug\Epam.Task02.7.VectorsGraphicsEditor.pdb
