@@ -1,0 +1,6 @@
+C:\Users\Продажный\source\repos\Epam.Task02\Epam.Task02.1.Round\bin\Debug\Epam.Task02.1.Round.exe.config
+C:\Users\Продажный\source\repos\Epam.Task02\Epam.Task02.1.Round\bin\Debug\Epam.Task02.1.Round.exe
+C:\Users\Продажный\source\repos\Epam.Task02\Epam.Task02.1.Round\bin\Debug\Epam.Task02.1.Round.pdb
+C:\Users\Продажный\source\repos\Epam.Task02\Epam.Task02.1.Round\obj\Debug\Epam.Task02.1.Round.csproj.CoreCompileInputs.cache
+C:\Users\Продажный\source\repos\Epam.Task02\Epam.Task02.1.Round\obj\Debug\Epam.Task02.1.Round.exe
+C:\Users\Продажный\source\repos\Epam.Task02\Epam.Task02.1.Round\obj\Debug\Epam.Task02.1.Round.pdb

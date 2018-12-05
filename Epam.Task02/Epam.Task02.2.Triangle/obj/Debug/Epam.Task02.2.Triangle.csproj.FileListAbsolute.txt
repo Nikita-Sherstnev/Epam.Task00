@@ -1,0 +1,6 @@
+C:\Users\Продажный\source\repos\Epam.Task02\Epam.Task02.2.Triangle\bin\Debug\Epam.Task02.2.Triangle.exe.config
+C:\Users\Продажный\source\repos\Epam.Task02\Epam.Task02.2.Triangle\bin\Debug\Epam.Task02.2.Triangle.exe
+C:\Users\Продажный\source\repos\Epam.Task02\Epam.Task02.2.Triangle\bin\Debug\Epam.Task02.2.Triangle.pdb
+C:\Users\Продажный\source\repos\Epam.Task02\Epam.Task02.2.Triangle\obj\Debug\Epam.Task02.2.Triangle.csproj.CoreCompileInputs.cache
+C:\Users\Продажный\source\repos\Epam.Task02\Epam.Task02.2.Triangle\obj\Debug\Epam.Task02.2.Triangle.exe
+C:\Users\Продажный\source\repos\Epam.Task02\Epam.Task02.2.Triangle\obj\Debug\Epam.Task02.2.Triangle.pdb
