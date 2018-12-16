@@ -1,0 +1,7 @@
+C:\Users\Продажный\source\repos\Epam.Task04\Epam.Task04.1.CustomSort\bin\Debug\Epam.Task04.1.CustomSort.exe.config
+C:\Users\Продажный\source\repos\Epam.Task04\Epam.Task04.1.CustomSort\bin\Debug\Epam.Task04.1.CustomSort.exe
+C:\Users\Продажный\source\repos\Epam.Task04\Epam.Task04.1.CustomSort\bin\Debug\Epam.Task04.1.CustomSort.pdb
+C:\Users\Продажный\source\repos\Epam.Task04\Epam.Task04.1.CustomSort\obj\Debug\Epam.Task04.1.CustomSort.csprojAssemblyReference.cache
+C:\Users\Продажный\source\repos\Epam.Task04\Epam.Task04.1.CustomSort\obj\Debug\Epam.Task04.1.CustomSort.csproj.CoreCompileInputs.cache
+C:\Users\Продажный\source\repos\Epam.Task04\Epam.Task04.1.CustomSort\obj\Debug\Epam.Task04.1.CustomSort.exe
+C:\Users\Продажный\source\repos\Epam.Task04\Epam.Task04.1.CustomSort\obj\Debug\Epam.Task04.1.CustomSort.pdb
